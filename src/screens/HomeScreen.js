@@ -12,7 +12,7 @@ entries: [],
 };
 }
 componentDidMount(){
-fetch ('https://murmuring-bastion-31969.herokuapp.com/entries').then(response => response.json()).then(jsonResponse => this.setState( { entries: jsonResponse}));
+fetch ('https://protected-spire-82809.herokuapp.com/entries').then(response => response.json()).then(jsonResponse => this.setState( { entries: jsonResponse}));
 }
 
 
